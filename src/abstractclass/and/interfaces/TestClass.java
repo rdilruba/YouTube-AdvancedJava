@@ -3,7 +3,7 @@ package abstractclass.and.interfaces;
 public class TestClass {
 	  
 	public static void main(String args[]){  
-		//İnsan obje= new İnsan(182,95);  
+		//Insan obje= new Insan(182,95);  
 		Bina obje = new Bina();
 		System.out.println(obje.boyMetre());  
 		System.out.println(obje.boySantimetre());
@@ -12,10 +12,10 @@ public class TestClass {
 }
 
 interface Boy{  
-	int değişken = 0;
-	static String tanım() {
-		return "Bu interface implement eden class için "
-				+ "boy bilgileri dönülmesini garanti eder.";
+	int degisken = 0;
+	static String tanim() {
+		return "Bu interface implement eden class iÃ§in "
+				+ "boy bilgileri dÃ¶nÃ¼lmesini garanti eder.";
 	}
 	int boySantimetre();
 	double boyMetre();
@@ -28,7 +28,7 @@ interface Boy{
 abstract class Hayvan implements Boy{
 	private int boy;
 	private int kilo;
-	public abstract boolean canlıMı();
+	public abstract boolean canliMi();
 	
 	
 	public int boySantimetre() {
@@ -51,14 +51,14 @@ abstract class Hayvan implements Boy{
 	}
 }  
 	  
-class İnsan extends Hayvan{  
+class Insan extends Hayvan{  
 	
-	public İnsan(int boy, int kilo) {
+	public Insan(int boy, int kilo) {
 		this.setBoy(boy);
 		this.setKilo(kilo);
 	}
 
-	public boolean canlıMı(){
+	public boolean canliMi(){
 		return true;
 	}  
 
