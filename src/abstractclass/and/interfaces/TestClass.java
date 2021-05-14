@@ -14,8 +14,8 @@ public class TestClass {
 interface Boy{  
 	int degisken = 0;
 	static String tanim() {
-		return "Bu interface implement eden class için "
-				+ "boy bilgileri dönülmesini garanti eder.";
+		return "Bu interface implement eden class icin "
+				+ "boy bilgileri donulmesini garanti eder.";
 	}
 	int boySantimetre();
 	double boyMetre();

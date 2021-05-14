@@ -4,7 +4,7 @@ public class Test {
 
 	public String herkese = "public degisken";
 	protected String korumali = "protected degisken";
-	String düz = "default degisken";
+	String duz = "default degisken";
 	private String gizli = "private degisken";
 	
 	
@@ -17,7 +17,7 @@ public class Test {
 		Test testObjesi = new Test();
 		
 		System.out.println("Erisebildigim degiskenler : " + testObjesi.gizli +
-		testObjesi.düz + " " + testObjesi.herkese + " " + testObjesi.korumali);
+		testObjesi.duz + " " + testObjesi.herkese + " " + testObjesi.korumali);
 
 	}
 }
