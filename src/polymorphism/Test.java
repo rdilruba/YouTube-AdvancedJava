@@ -31,7 +31,7 @@ class Animal{
 
 class Dog extends Animal{
 	public String hareket() {
-		return "koþarým.";
+		return "kosarim.";
 	}
 }
 
