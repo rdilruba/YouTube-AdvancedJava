@@ -2,10 +2,10 @@ package accessmodifiers;
 
 public class Test {
 
-	public String herkese = "public deðiþken";
-	protected String korumalý = "protected deðiþken";
-	String düz = "default deðiþken";
-	private String gizli = "private deðiþken";
+	public String herkese = "public degisken";
+	protected String korumali = "protected degisken";
+	String dÃ¼z = "default degisken";
+	private String gizli = "private degisken";
 	
 	
 	public String getGizli() {
@@ -16,8 +16,8 @@ public class Test {
 		
 		Test testObjesi = new Test();
 		
-		System.out.println("Eriþebildiðim deðiþkenler : " + testObjesi.gizli +
-		testObjesi.düz + " " + testObjesi.herkese + " " + testObjesi.korumalý);
+		System.out.println("Erisebildigim degiskenler : " + testObjesi.gizli +
+		testObjesi.dÃ¼z + " " + testObjesi.herkese + " " + testObjesi.korumali);
 
 	}
 }
